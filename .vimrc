@@ -45,6 +45,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 set number
+syntax on
 
 nmap <F12> :NERDTreeToggle<CR>:TagbarToggle<CR>:set number<CR><C-w>l
 nmap <F6> :e<CR>
