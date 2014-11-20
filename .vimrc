@@ -27,6 +27,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'fatih/vim-go'
 Plugin 'Tagbar'
+Plugin 'othree/xml.vim'
+
 " Avoid a name conflict with L9
 "
 " All of your Plugins must be added before the following line
@@ -87,3 +89,9 @@ nmap <F10> gg=G
 nmap <C-/> <Esc>0i//<Esc>  
 
 let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
+
+let g:go_fmt_command = "goimports"
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_snippet_engine = "neosnippet"
