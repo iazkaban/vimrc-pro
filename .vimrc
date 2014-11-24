@@ -86,6 +86,7 @@ hi CursorColumn cterm=NONE ctermbg=darkgreen ctermfg=white guibg=darkred
 "guifg=white
 
 nmap <F10> gg=G
+nmap <C-/> <Esc>0i//<Esc>  
 
 let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
 
