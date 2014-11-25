@@ -89,8 +89,10 @@ nmap <F10> gg=G
 
 let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
 
-let g:go_fmt_command = "goimports"
+let g:go_fmt_command = 'goimports'
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
-let g:go_snippet_engine = "neosnippet"
+let g:go_snippet_engine = 'neosnippet'
+
+:set backspace=indent,eol,start
