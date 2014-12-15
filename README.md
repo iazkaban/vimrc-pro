@@ -16,7 +16,7 @@ Vimrc Pro
 ###关于vim7.4在Mac上的编译
 ---
 ```
-    1.如果在编译的时候遇到sigaltstack类型冲突的时候，可以编辑vim74源码文件夹下面的os_unix.h，添加
+    1.如果在Mac下编译的时候遇到sigaltstack类型冲突的问题，可以编辑vim74源码文件夹下面的os_unix.h，添加
 
     #if defined(__APPLE__)
     #include <AvailabilityMacros.h>

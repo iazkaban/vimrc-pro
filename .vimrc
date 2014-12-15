@@ -95,4 +95,4 @@ let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
 let g:go_snippet_engine = 'neosnippet'
 
-:set backspace=indent,eol,start
+set backspace=indent,eol,start
