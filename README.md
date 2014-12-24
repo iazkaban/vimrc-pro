@@ -32,3 +32,17 @@ Vimrc Pro
     2.ycm插件需要7.3.584以上得版本支持，所以为什么上面一开始就提到编译7.4的版本了
     3.另外在获取完插件之后，需要到.vim/bundle/YouCompleteMe的文件夹里面去运行install.sh脚本，进行这个插件的编译之后才能工作
 ```
+
+ 
+###Docker镜像
+---
+```
+    最近做了一个完整的Docker镜像，放在Docker Hub上
+    主要内容：
+        Centos7
+        开发者工具包
+        vim7.4
+        golang1.4
+    大小：1.7G左右
+    suilongfei/centos:vimrc-pro
+```
