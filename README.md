@@ -30,7 +30,8 @@ Vimrc Pro
 ```
     1.这个插件需要python支持，需要指定--with-python-config-dir路径到python的安装路径根目录
     2.ycm插件需要7.3.584以上得版本支持，所以为什么上面一开始就提到编译7.4的版本了
-    3.另外在获取完插件之后，需要到.vim/bundle/YouCompleteMe的文件夹里面去运行install.sh脚本，进行这个插件的编译之后才能工作
+    3.另外在获取完插件之后，需要到.vim/bundle/YouCompleteMe的文件夹里面去运行install.sh脚本，
+      进行这个插件的编译之后才能工作
 ```
 
  
