@@ -24,10 +24,10 @@ Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'scrooloose/nerdtree'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'fatih/vim-go'
 Plugin 'Tagbar'
 Plugin 'othree/xml.vim'
+Plugin 'Valloric/YouCompleteMe'
 
 " Avoid a name conflict with L9
 "
