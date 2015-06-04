@@ -17,6 +17,7 @@ Vimrc Pro
 ###关于vim7.4在Mac上的编译
 ---
 ```
+    在mac上推荐使用homebrew，安装vim的话，可以直接更新到比较新的版本。
     1.如果在Mac下编译的时候遇到sigaltstack类型冲突的问题，可以编辑vim74源码文件夹下面的os_unix.h，添加
 
     #if defined(__APPLE__)
