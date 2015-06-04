@@ -27,8 +27,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'fatih/vim-go'
 Plugin 'Tagbar'
 Plugin 'othree/xml.vim'
+Plugin 'c.vim'
 Plugin 'Valloric/YouCompleteMe'
-Bundle 'c.vim'
 
 " Avoid a name conflict with L9
 "
