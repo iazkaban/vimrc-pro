@@ -97,3 +97,6 @@ let g:go_highlight_structs = 1
 let g:go_snippet_engine = 'neosnippet'
 
 set backspace=indent,eol,start
+"add c.vim plugin
+let g:C_UseTool_cmake = 'yes'
+let g:C_UseTool_doxygen = 'yes'
