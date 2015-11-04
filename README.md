@@ -1,6 +1,22 @@
 Vimrc Pro
 ---
 
+需要支持：
+```
+1.vim7.4以上版本
+2.Python2.x以及dev库
+3.cmake
+```
+获取方式：
+```
+git clone https://github.com/iazkaban/vimrc-pro ~/.vim
+```
+安装方式：
+```
+cd $HOME/.vim
+./install.sh
+```
+
 使用步骤：
 ```
 1.安装Vundle项目
