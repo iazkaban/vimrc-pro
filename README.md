@@ -14,18 +14,25 @@ git clone https://github.com/iazkaban/vimrc-pro ~/.vim
 安装方式：
 ```
 cd $HOME/.vim
-./install.sh
+
+git submodule init
+git submodule update
+
+cp .vimrc ../.vimrc
+```
+然后，执行vim，在vim命令行里面执行:
+(执行GoInstallBinaries的时候，需要翻墙)
+```
+:BundleInstall
+:GoInstallBinaries
 ```
 
-使用步骤：
+编译YCM
 ```
-1.安装Vundle项目
-2.下载本文件放在~/.vimrc
-3.更新所有插件
-4.编译Ycm插件
-5.安装go语言开发需要的插件
-```
+cd $HOME/.vim/bundle/YouCompleteMe
 
+./install.py
+```
 
 #简要说明
 
@@ -48,20 +55,6 @@ cd $HOME/.vim
 ```
 1.这个插件需要python支持，需要指定--with-python-config-dir路径到python的安装路径根目录
 2.ycm插件需要7.3.584以上得版本支持，所以为什么上面一开始就提到编译7.4的版本了
-3.另外在获取完插件之后，需要到.vim/bundle/YouCompleteMe的文件夹里面去运行install.sh脚本，
+3.另外在获取完插件之后，需要到.vim/bundle/YouCompleteMe的文件夹里面去运行install.py脚本，
     进行这个插件的编译之后才能工作
-```
-
- 
-###Docker镜像
----
-```
-最近做了一个完整的Docker镜像，放在Docker Hub上
-主要内容：
-    Centos7
-    开发者工具包
-    vim7.4
-    golang1.4
-大小：1.7G左右
-suilongfei/centos:vimrc-pro
 ```
