@@ -28,6 +28,8 @@ Plugin 'fatih/vim-go'
 Plugin 'Tagbar'
 Plugin 'othree/xml.vim'
 Plugin 'c.vim'
+Plugin 'tomlion/vim-solidity'
+Plugin 'vim-syntastic/syntastic'
 Plugin 'Valloric/YouCompleteMe'
 
 " Avoid a name conflict with L9
@@ -101,3 +103,14 @@ set backspace=indent,eol,start
 let g:C_UseTool_cmake = 'yes'
 let g:C_UseTool_doxygen = 'yes'
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
+
+"For Solidity
+execute pathogen#infect()
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
