@@ -140,3 +140,4 @@ let g:ale_linters = {
 \   'python': ['pylint'],
 \}
 "}}}
+let g:TerminusFocusReporting=0
