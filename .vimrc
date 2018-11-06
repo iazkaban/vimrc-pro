@@ -114,11 +114,11 @@ set statusline+=%{ALEGetStatusLine()}
 "ale-setting {{{
 let g:ale_set_highlights = 0
 "自定义error和warning图标
-let g:ale_sign_error = '✗'
+let g:ale_sign_error = '孬'
 let g:ale_completion_enabled = 1
-let g:ale_sign_warning = '⚡'
+let g:ale_sign_warning = '囍'
 "在vim自带的状态栏中整合ale
-let g:ale_statusline_format = ['✗ %d', '⚡ %d', '✔ OK']
+let g:ale_statusline_format = ['孬 %d', '囍 %d', '完美 OK']
 "显示Linter名称,出错或警告等相关信息
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
@@ -138,6 +138,7 @@ let g:ale_linters = {
 \   'c++': ['clang'],
 \   'c': ['clang'],
 \   'python': ['pylint'],
+\   'go': ['golint'],
 \}
 "}}}
 let g:TerminusFocusReporting=0
