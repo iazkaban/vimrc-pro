@@ -31,6 +31,7 @@ Plugin 'c.vim'
 Plugin 'w0rp/ale'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'rust-lang/rust.vim'
 
 " Avoid a name conflict with L9
 "
@@ -142,3 +143,5 @@ let g:ale_linters = {
 \}
 "}}}
 let g:TerminusFocusReporting=0
+
+set encoding=utf-8

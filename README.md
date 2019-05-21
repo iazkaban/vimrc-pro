@@ -34,10 +34,10 @@ cd $HOME/.vim/bundle/YouCompleteMe
 ./install.py
 ```
 
-#简要说明
+# 简要说明
 
 
-###关于vim7.4在Mac上的编译
+### 关于vim7.4在Mac上的编译
 ---
 ```
 在mac上推荐使用homebrew，安装vim的话，可以直接更新到比较新的版本。
@@ -50,7 +50,7 @@ cd $HOME/.vim/bundle/YouCompleteMe
 后可以编译通过
 ```
 
-###关于YouCompleteMe
+### 关于YouCompleteMe
 ---
 ```
 1.这个插件需要python支持，需要指定--with-python-config-dir路径到python的安装路径根目录
